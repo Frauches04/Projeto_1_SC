@@ -17,7 +17,7 @@ def normalizar_ascii(texto: str) -> str:
 
 
 # ------------------------------------------------------------
-# Parte I: Cifrador / Decifrador de Vigenère (INALTERADA)
+# Parte I: Cifrador / Decifrador de Vigenère
 # ------------------------------------------------------------
 
 def encriptar_vigenere(textobase: str, chave: str) -> str:
@@ -63,7 +63,7 @@ def decifrar_vigenere(textocifrado: str, chave: str) -> str:
 
 
 # ------------------------------------------------------------
-# Parte II: Ataque por análise de frequência (PRINTS RESUMIDOS)
+# Parte II: Ataque por análise de frequência
 # ------------------------------------------------------------
 
 FREQ_PT = {
@@ -181,10 +181,9 @@ def demonstrar_ataque_com_texto_longo():
     else:
         print(">>> Falha (texto muito curto ou chave longa demais?) <<<")
 
-
-# ------------------------------------------------------------
-# MAIN (PARTE I + PARTE II RESUMIDA)
-# ------------------------------------------------------------
+#--------------------------------------
+#Main
+#--------------------------------------
 
 def main():
     print("=" * 60)
